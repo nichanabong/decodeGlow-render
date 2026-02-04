@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'montserrat', sans-serif;
+}
+
+body {
+	background-color: #e8e4f0;
+	color: white;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 2rem;
+	width: 100%;
+}
+
+form{
+	display: block;
+	width: 100%;
+	max-width: 414px;
+	margin: 0 auto;
+	background-color: #FFF;
+	color: #2b2d2f;
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+form#contact-form {
+	max-width: 500px;
+}
+
+div.login-message {
+    width: 100%;
+    max-width: 414px; 
+    color: #aaa;
+    padding: 1.5rem;
+    background-color: #FFF;
+    border-radius: 1rem;
+    margin-bottom: 1rem; 
+    text-align: center; 
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+label span {
+	display: block;
+	color: #aaa;
+	font-size: 0.875rem;
+	margin-bottom: 0.5rem;
+	transition: 0.3s ease-out;
+}
+
+label:focus-within span {
+	color: #2b2d2f;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+button {
+	appearance: none;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	border: 1px solid #bbb;
+	border-radius: 0.5rem;
+	transition: border-color 0.3s ease-out;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border-color: #2b2d2f;
+}
+
+.button {
+	display: block;
+	width: fit-content;
+	margin-left: auto;
+	margin-top: 1.5rem;
+	cursor: pointer;
+	background-color: #a984b2;
+	color: #FFF;
+	border-radius: 0.5rem;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 700;
+	transition: background-color 0.3s ease-out;
+	align-items: center;
+}
+
+.button:hover {
+	background-color: #8e6f8c;
+}
+
+.passwd-wrap {
+	position: relative;
+}
+
+.show-passwd {
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.show-passwd img {
+	width: 100%;
+	height: auto;
+}
+
+div.links {
+	font-size: 0.9rem;
+}
+
+div.message {
+    color: crimson;
+    font-size: 12px;
+    margin: 0;  
+    padding: 5px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;     
+    width: 100%;             
+}
