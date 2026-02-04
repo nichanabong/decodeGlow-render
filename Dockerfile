@@ -1,22 +1,18 @@
 FROM php:8.2-apache
 
-# Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
-# Install required PHP extensions
 RUN docker-php-ext-install mysqli
 
-# Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Copy project files
 COPY . /var/www/html/
 
-# Install Composer dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Set working directory
-WORKDIR /var/www/html/
+# Set Apache DocumentRoot to /public
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
-# Expose port
+WORKDIR /var/www/html/public
+
 EXPOSE 80
