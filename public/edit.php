@@ -140,7 +140,7 @@ function isAuthenticated()
                                 $imageRow_path     = $imageRow['relative_path'];
                                 $imageRow_alt_text = $imageRow['alt_text'];
                                 ?>
-                                <img src="../storage/uploads/<?= basename($imageRow_path, '.' .
+                                <img src="/storage/uploads/<?= basename($imageRow_path, '.' .
                                                                     pathinfo($imageRow_path, PATHINFO_EXTENSION)) . '_medium.' .
                                                                     pathinfo($imageRow_path, PATHINFO_EXTENSION) ?>" alt="<?= $imageRow_alt_text ?>">
 

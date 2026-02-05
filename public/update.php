@@ -35,7 +35,7 @@ if ($_POST && isset($_POST['update'])) {
             if ($statementAlbumDeleteLocal->execute() && $statementAlbumDeleteLocal->rowCount() > 0) {
                 $row = $statementAlbumDeleteLocal->fetch();
 
-                $dir = "../storage/uploads";
+                $dir = "/storage/uploads";
                 $filename = basename($row['relative_path'], '.' . pathinfo($row['relative_path'], PATHINFO_EXTENSION));
                 $files = glob($dir . "/$filename*");
             }
@@ -89,7 +89,7 @@ if ($_POST && isset($_POST['update'])) {
     if ($statementAlbumDeleteLocal->execute() && $statementAlbumDeleteLocal->rowCount() > 0) {
         $row = $statementAlbumDeleteLocal->fetch();
 
-        $dir = "../storage/uploads";
+        $dir = "/storage/uploads";
         $filename = basename($row['relative_path'], '.' . pathinfo($row['relative_path'], PATHINFO_EXTENSION));
         $files = glob($dir . "/$filename*");
     }

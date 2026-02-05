@@ -105,7 +105,7 @@ $imageQueryStatement->execute();
                     <figure>
                         <h2><?= $imageRow_alt_text ?></h2>
                         <a href="show.php?id=<?= $imageRow_post_id ?>">
-                            <img src="../storage/uploads/<?= basename($imageRow_path, '.' .
+                            <img src="/storage/uploads/<?= basename($imageRow_path, '.' .
                                                                 pathinfo($imageRow_path, PATHINFO_EXTENSION)) . '_medium.' .
                                                                 pathinfo($imageRow_path, PATHINFO_EXTENSION) ?>" alt="<?= $imageRow_alt_text ?>">
                         </a>
