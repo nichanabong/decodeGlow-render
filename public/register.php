@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('/config/config.php');
+require('../config/config.php');
 
 if ($_POST && !empty($_POST['email']) && !empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['confirm-pass'])) {
 

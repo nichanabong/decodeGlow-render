@@ -8,8 +8,8 @@
 
  ****************/
 
-require('/config/config.php');
-require('/config/default_user.php');
+require('../config/config.php');
+require('../config/default_user.php');
 
 $querySelect = "SELECT product_category_id, product_category
 FROM product_categories";

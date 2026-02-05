@@ -1,6 +1,6 @@
 <?php
 
-require('/config/config.php');
+require('../config/config.php');
 
 if ($_POST && isset($_POST['update'])) {
     // UPDATE blog if title, content and id are present in POST.

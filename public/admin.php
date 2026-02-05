@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('/config/config.php');
+require('../config/config.php');
 require('admin_only_auth.php');
 
 isset($_SESSION['username']) ? $user = $_SESSION['username'] : $user = 'Guest';

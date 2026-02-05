@@ -1,5 +1,5 @@
 <?php
-require('/config/config.php');
+require('../config/config.php');
 require('authenticate.php');
 
 require '\xampp\htdocs\wd2\assignments\Project\DecodeGLow_CMS.v0\app\ImageResizer.php';

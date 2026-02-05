@@ -1,6 +1,6 @@
 <?php
-require('/config/config.php');
-require('/config/default_user.php');
+require('../config/config.php');
+require('../config/default_user.php');
 
 $querySelect = "SELECT category_id, category_name
 FROM categories";

@@ -1,6 +1,6 @@
 <?php
 
-require('/config/config.php');
+require('../config/config.php');
 require('authenticate.php');
 
 // require('authenticate.php');

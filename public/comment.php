@@ -1,6 +1,6 @@
 <?php
-require('/config/config.php');
-require('/config/default_user.php');
+require('../config/config.php');
+require('../config/default_user.php');
 
 $session_username = $_SESSION['username'];
 $session_role = $_SESSION['role'];
