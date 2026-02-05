@@ -1,6 +1,6 @@
 <?php
-require("../config/config.php");
-require("../config/default_user.php");
+require("/config/config.php");
+require("/config/default_user.php");
 
 // Import classes to the current namespace so we can use them without prefixing with the full namespace.
 use PHPMailer\PHPMailer\PHPMailer;

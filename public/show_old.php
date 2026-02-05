@@ -7,8 +7,8 @@
     Description: Shows an individual post based on a passed id ($_GET).
 
  ****************/
-require('../config/config.php');
-require('../config/default_user.php');
+require('/config/config.php');
+require('/config/default_user.php');
 
 // Buid and prepare SQL string with :id placeholder parameter.
 if (isset($_GET['id']) && isset($_GET['product'])) {

@@ -5,9 +5,9 @@
     Date: 11/3/2024
     Description: Home page for Decode Glow
  ****************/
-require('../config/config.php');
-include('../app/truncate.php');
-require('../config/default_user.php');
+require('/config/config.php');
+include('/app/truncate.php');
+require('/config/default_user.php');
 
 // Query to get all products
 $query = "SELECT * FROM products";

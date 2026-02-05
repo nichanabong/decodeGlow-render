@@ -1,5 +1,5 @@
 <?php
-require('../config/config.php');
+require('/config/config.php');
 
 if (isset($_GET['id'])) {
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);

@@ -6,8 +6,8 @@
     Description: Displays an individual post or product based on a passed ID ($_GET).
  ****************/
 
-require('../config/config.php');
-require('../config/default_user.php');
+require('/config/config.php');
+require('/config/default_user.php');
 
 // Check if 'id' exists in the query and determine the category (blog post or product).
 if (isset($_GET['id'])) {

@@ -1,7 +1,7 @@
 <?php
-require('../config/config.php');
-require('../config/default_user.php');
-include('../app/truncate.php');
+require('/config/config.php');
+require('/config/default_user.php');
+include('/app/truncate.php');
 
 $query = "SELECT post_id, 
                 post_title, 
