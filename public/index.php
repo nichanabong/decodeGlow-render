@@ -2,7 +2,7 @@
 require __DIR__ . '/../config/config.php';
 require __DIR__ . '/../config/default_user.php';
 
-include('/app/truncate.php');
+include('../app/truncate.php');
 
 $query = "SELECT post_id, 
                 post_title, 
