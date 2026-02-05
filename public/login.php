@@ -1,7 +1,8 @@
 <?php
-require('../config/config.php');
-
 ob_start();
+ob_start(); session_start();
+
+require __DIR__ . '/../config/config.php';
 
 if (isset($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) {
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_FULL_SPECIAL_CHARS);

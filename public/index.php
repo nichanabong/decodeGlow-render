@@ -1,4 +1,7 @@
 <?php
+ob_start(); 
+session_start();
+
 require __DIR__ . '/../config/config.php';
 require __DIR__ . '/../config/default_user.php';
 
