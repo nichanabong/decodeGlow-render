@@ -1,4 +1,7 @@
 <?php
+ob_start(); 
+session_start();
+
 require('../config/config.php');
 require('../config/default_user.php');
 
