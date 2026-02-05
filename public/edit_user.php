@@ -37,7 +37,7 @@ if (isset($_GET['id'])) { // Retrieve entry to be edited, if id GET parameter is
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../resources/styles/users.css">
+    <link rel="stylesheet" href="/resources/styles/users.css">
     <title>Document</title>
 </head>
 

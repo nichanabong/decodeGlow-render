@@ -58,7 +58,7 @@ if ($_POST && !empty($_POST['email']) && !empty($_POST['username']) && !empty($_
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../resources/styles/register.css">
+    <link rel="stylesheet" href="/resources/styles/register.css">
     <title>Login | SignUp</title>
 </head>
 

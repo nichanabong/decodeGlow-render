@@ -46,7 +46,7 @@ if (isset($_POST) && !empty($_POST['name']) && !empty($_POST['email']) && !empty
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../resources/styles/mystyles.css">
+    <link rel="stylesheet" href="/resources/styles/mystyles.css">
     <title>Contact Us!</title>
 </head>
 <header>

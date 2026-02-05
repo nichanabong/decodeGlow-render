@@ -34,8 +34,8 @@ if (isset($_POST) && !empty($_POST['username']) && !empty($_POST['role'])) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../resources/styles/users.css">
-        <link rel="stylesheet" href="../resources/styles/mystyles.css">
+        <link rel="stylesheet" href="/resources/styles/users.css">
+        <link rel="stylesheet" href="/resources/styles/mystyles.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
             rel="stylesheet">
         <title>Admin | Manage Users</title>

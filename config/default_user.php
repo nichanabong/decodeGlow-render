@@ -23,3 +23,4 @@ if (!isset($row['user_id'])) {
 }
 
 $userid = $row['user_id'];
+    ?>
